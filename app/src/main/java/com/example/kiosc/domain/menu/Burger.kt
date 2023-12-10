@@ -2,7 +2,7 @@ package com.example.kiosc.domain.menu
 
 import com.example.kiosc.domain.detail.detailBurger
 
-class Burger {
+open class Burger {
     fun order1(pick: String): String {
         println("SHAKESHACK BURGER 에 오신걸 환영합니다.")
         println("아래 상품메뉴판을 보시고 상품을 골라 입력해주세요.")
